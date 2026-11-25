@@ -122,6 +122,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .hero .sub b { color: var(--on-media); font-weight: 600; }
 .names { margin: 22px 0 0; max-width: 78ch; font-size: 16px; line-height: 1.7; color: rgba(255,255,255,.92); }
 .names span { white-space: nowrap; }
+.names a { color: inherit; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.3); transition: border-color .2s; }
+.names a:hover { border-bottom-color: var(--on-media); }
 .names sup, .affil sup { font-size: .64em; color: var(--on-media-accent); margin-left: 1px; }
 .affil { margin: 6px 0 0; display: flex; flex-wrap: wrap; gap: 4px 22px; font-family: var(--mono); font-size: 13px; color: rgba(255,255,255,.7); }
 .links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 30px; }
@@ -414,7 +416,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wr
   <div class="wrap hero-in">
     <h1><span class="ln"><span>Dexterity is, at its core,</span></span><span class="ln"><span><span class="nb">finger-level</span> control.</span></span></h1>
     <p class="sub f1"><b>FineDex</b>: Bridging Fine-Grained Human–Object Interaction Generation to Dexterous Humanoid Manipulation</p>
-    <p class="names f2"><span>Yujia Zeng<sup>1</sup></span>, <span>Yuxin Chen<sup>1</sup></span>, <span>Yuzhen Song<sup>1</sup></span>, <span>Runhan Huang<sup>2</sup></span>, <span>Chensheng Peng<sup>1</sup></span>, <span>Yiyang Shao<sup>1</sup></span>, <span>Koushil Sreenath<sup>1</sup></span>, <span>Masayoshi Tomizuka<sup>1</sup></span>, <span>Yilun Du<sup>2</sup></span></p>
+    <p class="names f2"><span><a href="https://www.yujiazeng.com/" target="_blank" rel="noopener">Yujia Zeng</a><sup>1</sup></span>, <span><a href="https://thomaschen98.github.io/" target="_blank" rel="noopener">Yuxin Chen</a><sup>1</sup></span>, <span><a href="https://yuzhen-song.github.io/" target="_blank" rel="noopener">Yuzhen Song</a><sup>1</sup></span>, <span><a href="https://hrh6666.github.io/" target="_blank" rel="noopener">Runhan Huang</a><sup>2</sup></span>, <span><a href="https://pengchensheng.com/" target="_blank" rel="noopener">Chensheng Peng</a><sup>1</sup></span>, <span><a href="https://yiyangshao2003.github.io/" target="_blank" rel="noopener">Yiyang Shao</a><sup>1</sup></span>, <span><a href="https://hybrid-robotics.berkeley.edu/koushil/" target="_blank" rel="noopener">Koushil Sreenath</a><sup>1</sup></span>, <span><a href="https://me.berkeley.edu/people/masayoshi-tomizuka/" target="_blank" rel="noopener">Masayoshi Tomizuka</a><sup>1</sup></span>, <span><a href="https://yilundu.github.io/" target="_blank" rel="noopener">Yilun Du</a><sup>2</sup></span></p>
     <p class="affil f2"><span><sup>1</sup>University of California, Berkeley</span><span><sup>2</sup>Harvard University</span></p>
     <div class="links f3">
       <span class="btn soon" aria-disabled="true">
